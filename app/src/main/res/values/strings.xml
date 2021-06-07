@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Aplikasi Kontak Teman</string>
+    <string name="labelLihatData">Lihat Data</string>
+    <string name="labetEditData">Edit Data</string>
+    <string name="labetInsertData">Insert Data</string>
+    <string name="tvKet">Please input the data in below</string>
+    <string name="tvEdit">Edit Data</string>
+    <string name="tvInsert">Insert Data</string>
+    <string name="txtNama">Nama</string>
+    <string name="txtTelpon">Telpon</string>
+    <string name="txtNTelpon">Nomor Telepon</string>
+    <string name="btnSave">Save</string>
+    <string name="tvLihatData">Detail Kontak</string>
+    <string name="infoNama">Nama    :</string>
+    <string name="infoNotel">Telpon :</string>
+    <string name="tNama">Nama</string>
+    <string name="tNotel">No.HP</string>
+    <string name="fabSave">Save</string>
+    <string name="fabCancel">Cancel</string>
+    <string name="ket1">Save</string>
+    <string name="ket2">Cancel</string>
+    <string name="name_app">Data Kontak</string>
+</resources>

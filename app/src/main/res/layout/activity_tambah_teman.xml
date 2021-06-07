@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#070d2d"
+    tools:context=".TambahTeman">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/back_text" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tvInsert"
+            android:textColor="#ffc107"
+            android:textSize="13pt"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/back_insert_data"
+        android:layout_margin="16dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvKet"
+            android:textColor="#0dcaf0"
+            android:textSize="8pt"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/tietNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="14"
+                android:background="@drawable/back_nama_telpon"
+                android:textColor="#FFF3F3"
+                android:textColorHint="#80FFFFFF"
+                android:hint="@string/txtNama"
+                android:layout_marginTop="25dp"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:importantForAutofill="no"/>
+
+            <EditText
+                android:id="@+id/tietTelpon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="14"
+                android:textColor="#FFF3F3"
+                android:hint="@string/txtTelpon"
+                android:textColorHint="#80FFFFFF"
+                android:background="@drawable/back_nama_telpon"
+                android:layout_marginTop="20dp"
+                android:padding="15dp"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawablePadding="10dp"
+                android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSave"
+            android:ems="8"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/back_btn"
+            app:backgroundTint="#060201"/>
+
+    </LinearLayout>
+
+</LinearLayout>
