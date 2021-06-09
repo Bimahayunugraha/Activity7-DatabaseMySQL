@@ -4,6 +4,6 @@
         android:bottomRightRadius="8pt"/>
     <stroke
         android:width="25dp"
-        android:color="#121B54" />
-    <solid android:color="#121B54" />
+        android:color="#202020" />
+    <solid android:color="#202020" />
 </shape>

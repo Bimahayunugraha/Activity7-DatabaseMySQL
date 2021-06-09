@@ -1,5 +1,6 @@
 package com.example.remotedatabasea;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -46,6 +47,9 @@ public class TambahTeman extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 simpanData();
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
     }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#070d2d"
+    android:background="#181818"
     tools:context=".TambahTeman">
 
     <LinearLayout
@@ -20,7 +20,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/tvInsert"
-            android:textColor="#ffc107"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
             android:textSize="13pt"
             android:gravity="center"
             android:layout_marginTop="20dp"
@@ -40,7 +41,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tvKet"
-            android:textColor="#0dcaf0"
+            android:textColor="@color/white"
             android:textSize="8pt"
             android:gravity="center"
             android:layout_marginTop="20dp"/>
@@ -82,13 +83,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btnSave"
-            android:ems="8"
+            android:ems="7"
+            android:textStyle="bold"
             android:textColor="@color/white"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="20dp"
+            android:drawableRight="@drawable/ic_keyboard_arrow_right"
             android:background="@drawable/back_btn"
-            app:backgroundTint="#060201"/>
+            app:backgroundTint="#343a40"/>
 
     </LinearLayout>
 

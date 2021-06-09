@@ -20,4 +20,5 @@
     <string name="ket1">Save</string>
     <string name="ket2">Cancel</string>
     <string name="name_app">Data Kontak</string>
+    <string name="btnUpdate">Update</string>
 </resources>

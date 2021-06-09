@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public  void BacaData() {
+
         temanArrayList.clear();
 
         RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
@@ -120,7 +121,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void callInfo(){
         final AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-        builder.setMessage("* Klik pada button (+) untuk menambahkan data baru.");
+        builder.setMessage("* Klik pada button (+) untuk menambahkan data baru.\n" +
+                        "* Klik dan tahan pada card untuk memilih opsi menu edit atau hapus data.");
         builder.setCancelable(true);
         builder.setNegativeButton("Ok", new DialogInterface.OnClickListener() {
             @Override
